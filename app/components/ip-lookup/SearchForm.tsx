@@ -71,7 +71,7 @@ export default function SearchForm({
               </p>
             )}
           </div>
-          <div className="flex gap-2">
+          <div className="flex justify-center sm:justify-start gap-2">
             <button
               type="submit"
               disabled={loading || !!inputError}
